@@ -27,9 +27,28 @@ submitButton.addEventListener("click",function(e){
     var personalValue = personalInput.value;
     var budgetValue = budgetInput.value;
 
-    //test console.log
+    // What will happen if a field is empty
 
-    console.log(rentmortgageValue);
+    if(rentmortgageValue == ""){
+        alert("Insert a number in the Rent/Mortgage field")
+    }else if(electricityValue == ""){
+        alert("Insert a number in the Electricity field") 
+    }else if(gasValue == ""){
+    alert("Insert a number in the Gas field") 
+    }else if(groceriesValue == ""){
+        alert("Insert a number in the Groceries field") 
+    }else if(transportationValue == ""){
+        alert("Insert a number in the Transportation field") 
+    }else if(subscriptionsValue == ""){
+        alert("Insert a number in the subscription field") 
+    }else if(personalValue == ""){
+        alert("Insert a number in the Personal field") 
+    }else if(budgetValue == ""){
+        alert("Insert a number in the Budget field") 
+    }else {
+
+    }
+    
 
 
 });
