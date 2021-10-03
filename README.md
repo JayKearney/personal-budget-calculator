@@ -148,3 +148,7 @@ div input https://medium.com/weekly-webtips/a-simple-expense-calculator-built-wi
 border of fields is emerald green because it's an irish calculator. It will have irish colours
 
 getelementbyid from code institute course
+
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp - event listener click
+
+understanding function e (event) JS https://stackoverflow.com/questions/10323392/in-javascript-jquery-what-does-e-mean

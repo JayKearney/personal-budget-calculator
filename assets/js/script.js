@@ -9,3 +9,11 @@ var transportationInput = document.getElementById("transp-input");
 var subscriptionsInput = document.getElementById("subs-input");
 var personalInput = document.getElementById("personal-input");
 var budgetInput = document.getElementById("budget-input");
+var submitButton = document.getElementById("submit-button");
+
+submitButton.addEventListener("click",function(e){
+
+    // What will happen when the user clicks the button
+    alert("button activated")
+
+});
