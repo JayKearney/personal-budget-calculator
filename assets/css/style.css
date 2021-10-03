@@ -56,8 +56,16 @@ h3 {
 
 .budget-result input {
     font-size: 8px;
-    font-weight: bolder;
-    border: 2.5px solid #50C878;
+    border: 2.5px solid #ff8c00;
     border-radius: 10px;
     padding: 10px;
+}
+
+#submit-button {
+
+    background-color: #50C878;
+    color: white;
+    font-size: 11px;
+    font-weight: bolder;
+    border: 2px solid #228B22;
 }
