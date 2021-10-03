@@ -3,6 +3,9 @@
 .ireland {
     width: 50%;
     margin: 5px auto;
+    border: 2px solid #808080;
+    background-color: #F5F5F5;
+    padding: 10px;
 }
 
 h1 {
@@ -68,4 +71,13 @@ h3 {
     font-size: 11px;
     font-weight: bolder;
     border: 2px solid #228B22;
+}
+
+
+/* --------- Background image*/
+
+body {
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 38%;
 }
