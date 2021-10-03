@@ -8,7 +8,7 @@
 h1 {
     font-family: 'Karla', sans-serif;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 5%;
 }
 
@@ -21,8 +21,29 @@ h1 {
 }
 
 .calculator-field input {
-    font-size: 20px;
+    font-size: 15px;
     border: 2.5px solid #50C878;
     border-radius: 10px;
     padding: 15px;
+}
+
+/* --------- Budget Field */
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.budget-field {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.budget-field input {
+
+    font-size: 15px;
+    border: 2.5px solid #FFA500;
+    border-radius: 10px;
+    padding: 15px;
+}
 }
