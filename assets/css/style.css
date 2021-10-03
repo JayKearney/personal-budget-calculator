@@ -14,15 +14,15 @@ h1 {
 
 /* --------- Calculator Fields */
 
-.rent-field {
+.calculator-field {
     text-align: center;
     margin: 5px;
     padding: 5px;
 }
 
-.rent-field input {
+.calculator-field input {
     font-size: 20px;
     border: 2.5px solid #50C878;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
 }
