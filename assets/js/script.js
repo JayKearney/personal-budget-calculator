@@ -11,6 +11,20 @@ var subscriptionsInput = document.getElementById("subs-input");
 var personalInput = document.getElementById("personal-input");
 var budgetInput = document.getElementById("budget-input");
 var submitButton = document.getElementById("submit-button");
+var expensestotalInput = document.getElementById("expenses-total");
+
+function compareExpenseswithBudget(expenses,budget){
+
+    if(expenses > budget){    
+
+    }else if(budget == expenses){  
+
+    }else{
+    //budget > expenses
+    }
+}
+
+
 
 // Display the values
 
@@ -47,8 +61,13 @@ submitButton.addEventListener("click",function(e){
         alert("Insert a number in the Budget field") 
     }else {
 
-    }
-    
+        // Calculation when all values have been entered
+        var expenses = parseInt(rentmortgageValue) + parseInt(electricityValue) + parseInt(gasValue) + parseInt(groceriesValue) + parseInt(transportationValue) + parseInt(subscriptionsValue) + parseInt(personalValue);
+        var budget = budgetValue;
 
+        expensestotalInput.value = expenses;
+
+        compareExpenseswithBudget(expenses,budget);
+    }
 
 });

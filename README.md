@@ -156,3 +156,7 @@ understanding function e (event) JS https://stackoverflow.com/questions/10323392
 get value js https://stackoverflow.com/questions/11563638/how-do-i-get-the-value-of-text-input-field-using-javascript
 
 value if statements code institute
+
+https://levelup.gitconnected.com/create-a-simple-expense-manager-with-javascript-4e2cf2097fba
+
+parsint sum https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-16.php
