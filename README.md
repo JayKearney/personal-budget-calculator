@@ -152,3 +152,5 @@ getelementbyid from code institute course
 https://www.w3schools.com/js/js_htmldom_eventlistener.asp - event listener click
 
 understanding function e (event) JS https://stackoverflow.com/questions/10323392/in-javascript-jquery-what-does-e-mean
+
+get value js https://stackoverflow.com/questions/11563638/how-do-i-get-the-value-of-text-input-field-using-javascript
