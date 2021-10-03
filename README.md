@@ -146,3 +146,5 @@ https://www.numbeo.com/cost-of-living/country_result.jsp?country=Ireland
 div input https://medium.com/weekly-webtips/a-simple-expense-calculator-built-with-javascript-bcd824536a4c
 
 border of fields is emerald green because it's an irish calculator. It will have irish colours
+
+getelementbyid from code institute course
