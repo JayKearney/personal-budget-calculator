@@ -138,3 +138,7 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
+Inspiration https://toggl.com/plan/budget-calculator/index
+
+https://www.numbeo.com/cost-of-living/country_result.jsp?country=Ireland
