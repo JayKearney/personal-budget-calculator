@@ -160,3 +160,5 @@ value if statements code institute
 https://levelup.gitconnected.com/create-a-simple-expense-manager-with-javascript-4e2cf2097fba
 
 parsint sum https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-16.php
+
+error is naan

@@ -33,13 +33,21 @@ submitButton.addEventListener("click",function(e){
     // What will happen when the user clicks the button
     
     var rentmortgageValue = rentmortgageInput.value;
-    var electricityValue = electricityInput;
+    console.log(rentmortgageValue);
+    var electricityValue = electricityInput.value;
+    console.log(electricityValue);
     var gasValue = gasInput.value;
+    console.log(gasValue);
     var groceriesValue = groceriesInput.value;
+    console.log(groceriesValue);
     var transportationValue = transportationInput.value;
+    console.log(transportationValue);
     var subscriptionsValue = subscriptionsInput.value;
+    console.log(subscriptionsValue);
     var personalValue = personalInput.value;
+    console.log(personalValue);
     var budgetValue = budgetInput.value;
+    console.log(budgetValue);
 
     // What will happen if a field is empty
 
