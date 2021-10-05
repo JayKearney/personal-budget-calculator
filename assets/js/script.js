@@ -1,17 +1,17 @@
 
 // Made references to budget calculator fields
 
-var rentmortgageInput = document.getElementById("rent-mortgage-input");
-var electricityInput = document.getElementById("electricity-input");
-var gasInput = document.getElementById("gas-input");
-var internetphoneInput = document.getElementById("int-phone-input");
-var groceriesInput = document.getElementById("groceries-input");
-var transportationInput = document.getElementById("transp-input");
-var subscriptionsInput = document.getElementById("subs-input");
-var personalInput = document.getElementById("personal-input");
-var budgetInput = document.getElementById("budget-input");
-var submitButton = document.getElementById("submit-button");
-var expensestotalInput = document.getElementById("expenses-total");
+const rentmortgageInput = document.getElementById("rent-mortgage-input");
+const electricityInput = document.getElementById("electricity-input");
+const gasInput = document.getElementById("gas-input");
+const internetphoneInput = document.getElementById("int-phone-input");
+const groceriesInput = document.getElementById("groceries-input");
+const transportationInput = document.getElementById("transp-input");
+const subscriptionsInput = document.getElementById("subs-input");
+const personalInput = document.getElementById("personal-input");
+const budgetInput = document.getElementById("budget-input");
+const submitButton = document.getElementById("submit-button");
+const expensestotalInput = document.getElementById("expenses-total");
 
 function compareExpenseswithBudget(expenses,budget){
 
@@ -32,22 +32,15 @@ submitButton.addEventListener("click",function(e){
 
     // What will happen when the user clicks the button
     
-    var rentmortgageValue = rentmortgageInput.value;
-    console.log(rentmortgageValue);
-    var electricityValue = electricityInput.value;
-    console.log(electricityValue);
-    var gasValue = gasInput.value;
-    console.log(gasValue);
-    var groceriesValue = groceriesInput.value;
-    console.log(groceriesValue);
-    var transportationValue = transportationInput.value;
-    console.log(transportationValue);
-    var subscriptionsValue = subscriptionsInput.value;
-    console.log(subscriptionsValue);
-    var personalValue = personalInput.value;
-    console.log(personalValue);
-    var budgetValue = budgetInput.value;
-    console.log(budgetValue);
+    let rentmortgageValue = rentmortgageInput.value;
+    let electricityValue = electricityInput.value;
+    let gasValue = gasInput.value;
+    let groceriesValue = groceriesInput.value;
+    let transportationValue = transportationInput.value;
+    let subscriptionsValue = subscriptionsInput.value;
+    let personalValue = personalInput.value;
+    let budgetValue = budgetInput.value;
+
 
     // What will happen if a field is empty
 
