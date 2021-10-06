@@ -1,6 +1,7 @@
 
 // Made references to budget calculator fields
 
+const budgetInput = document.getElementById("budget-input");
 const rentmortgageInput = document.getElementById("rent-mortgage-input");
 const electricityInput = document.getElementById("electricity-input");
 const gasInput = document.getElementById("gas-input");
@@ -9,7 +10,6 @@ const groceriesInput = document.getElementById("groceries-input");
 const transportationInput = document.getElementById("transp-input");
 const subscriptionsInput = document.getElementById("subs-input");
 const personalInput = document.getElementById("personal-input");
-const budgetInput = document.getElementById("budget-input");
 const submitButton = document.getElementById("submit-button");
 const expensestotalInput = document.getElementById("expenses-total");
 
@@ -49,7 +49,7 @@ submitButton.addEventListener("click",function(e){
     }else if(electricityValue == ""){
         alert("Insert a number in the Electricity field") 
     }else if(gasValue == ""){
-    alert("Insert a number in the Gas field") 
+         alert("Insert a number in the Gas field") 
     }else if(groceriesValue == ""){
         alert("Insert a number in the Groceries field") 
     }else if(transportationValue == ""){
@@ -63,7 +63,7 @@ submitButton.addEventListener("click",function(e){
     }else {
 
         // Calculation when all values have been entered
-        var expenses = parseInt(rentmortgageValue) + parseInt(electricityValue) + parseInt(gasValue) + parseInt(groceriesValue) + parseInt(transportationValue) + parseInt(subscriptionsValue) + parseInt(personalValue);
+        var expenses = parseInt(rentmortgageValue) - parseInt(electricityValue) - parseInt(gasValue) - parseInt(groceriesValue) - parseInt(transportationValue) - parseInt(subscriptionsValue) - parseInt(personalValue);
         var budget = budgetValue;
 
         expensestotalInput.value = expenses;
