@@ -88,6 +88,8 @@ submitButton.addEventListener("click",function(e){
 
         expensestotalInput.value = balance;
 
+
+        var budget = budgetValue;
         compareBudgetwithExpenses(budget,expenses);
     }
 
