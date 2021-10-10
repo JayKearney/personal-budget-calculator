@@ -73,10 +73,20 @@ submitButton.addEventListener("click",function(e){
     }else {
 
         // Calculation when all values have been entered
+        
+        /*
         var budget = budgetValue;
         var expenses = (parseInt(budgetValue) - (parseInt(rentmortgageValue) + parseInt(electricityValue) + parseInt(gasValue) + parseInt(internetphoneValue) + parseInt(groceriesValue) + parseInt(transportationValue) + parseInt(subscriptionsValue) + parseInt(entertainmentValue) + parseInt(personalValue)));
-        
-        expensestotalInput.value = expenses;
+        */
+
+        var expenses = [parseInt(rentmortgageValue) , parseInt(electricityValue) , parseInt(gasValue) , parseInt(internetphoneValue) , parseInt(groceriesValue) , parseInt(transportationValue) , parseInt(subscriptionsValue) , parseInt(entertainmentValue) , parseInt(personalValue)];
+        var sum = 0;
+            for (let i = 0; i < expenses.length; i++) {
+                sum += expenses[i]
+            }
+        balance = parseInt(budgetValue) - sum;
+
+        expensestotalInput.value = balance;
 
         compareBudgetwithExpenses(budget,expenses);
     }
