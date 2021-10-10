@@ -17,18 +17,18 @@ var resultAlert = document.getElementById("result-alert");
 
 function compareBudgetwithExpenses(budget,expenses){
 
-    if (budget > expenses){
+    if (budget > expenses) {
         resultAlert.innerHTML = "Well done";
 
-    }else if(budget == expenses){
+    } else switch (budget) {
+    case expenses:
         resultAlert.innerHTML = "Be careful";
-    }else{
+        break;
+    default:
         resultAlert.innerHTML = "Wrong";
+        break;
     }
 }
-
-
-
 
 // Display the values
 
