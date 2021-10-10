@@ -12,17 +12,27 @@ const subscriptionsInput = document.getElementById("subs-input");
 const personalInput = document.getElementById("personal-input");
 const submitButton = document.getElementById("submit-button");
 const expensestotalInput = document.getElementById("expenses-total");
+var resultAlert;
+resultAlert = document.getElementById("result-alert");
 
 function compareExpenseswithBudget(expenses,budget){
 
-    if(expenses > budget){    
+    if (expenses > budget) {
+        //warn user
+        resultAlert.innerHTML = "Your expenses are larger than your budget";
 
-    }else if(budget == expenses){  
+    } else switch (budget) {
+    case expenses:
+        //be careful
+        resultAlert.innerHTML = "Your have to be careful";
 
-    }else{
-    //budget > expenses
+        break;
+    default:
+        //budget > expenses
+        resultAlert.innerHTML = "Well done";
+        break;
     }
-}
+    }
 
 
 

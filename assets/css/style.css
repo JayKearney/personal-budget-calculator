@@ -82,3 +82,10 @@ body {
   background-attachment: fixed;
   background-size: 38%;
 }
+
+/* --------- Alerts*/
+
+h2 {
+    text-align: center;
+    color: red;
+}
