@@ -9,30 +9,24 @@ const internetphoneInput = document.getElementById("int-phone-input");
 const groceriesInput = document.getElementById("groceries-input");
 const transportationInput = document.getElementById("transp-input");
 const subscriptionsInput = document.getElementById("subs-input");
+const entertainmentInput = document.getElementById("ent-input");
 const personalInput = document.getElementById("personal-input");
 const submitButton = document.getElementById("submit-button");
 const expensestotalInput = document.getElementById("expenses-total");
-var resultAlert;
-resultAlert = document.getElementById("result-alert");
+var resultAlert = document.getElementById("result-alert");
 
-function compareExpenseswithBudget(expenses,budget){
+function compareBudgetwithExpenses(budget,expenses){
 
-    if (expenses > budget) {
-        //warn user
-        resultAlert.innerHTML = "Your expenses are larger than your budget";
-
-    } else switch (budget) {
-    case expenses:
-        //be careful
-        resultAlert.innerHTML = "Your have to be careful";
-
-        break;
-    default:
-        //budget > expenses
+    if (budget > expenses){
         resultAlert.innerHTML = "Well done";
-        break;
+
+    }else if(budget == expenses){
+        resultAlert.innerHTML = "Be careful";
+    }else{
+        resultAlert.innerHTML = "Wrong";
     }
-    }
+}
+
 
 
 
@@ -45,9 +39,11 @@ submitButton.addEventListener("click",function(e){
     let rentmortgageValue = rentmortgageInput.value;
     let electricityValue = electricityInput.value;
     let gasValue = gasInput.value;
+    let internetphoneValue = internetphoneInput.value;
     let groceriesValue = groceriesInput.value;
     let transportationValue = transportationInput.value;
     let subscriptionsValue = subscriptionsInput.value;
+    let entertainmentValue = entertainmentInput.value;
     let personalValue = personalInput.value;
     let budgetValue = budgetInput.value;
 
@@ -59,13 +55,17 @@ submitButton.addEventListener("click",function(e){
     }else if(electricityValue == ""){
         alert("Insert a number in the Electricity field") 
     }else if(gasValue == ""){
-         alert("Insert a number in the Gas field") 
+         alert("Insert a number in the Gas field")
+    }else if(internetphoneValue == ""){
+            alert("Insert a number in the internet/phone field") 
     }else if(groceriesValue == ""){
         alert("Insert a number in the Groceries field") 
     }else if(transportationValue == ""){
         alert("Insert a number in the Transportation field") 
     }else if(subscriptionsValue == ""){
         alert("Insert a number in the subscription field") 
+    }else if(entertainmentValue == ""){
+            alert("Insert a number in the entertainment field") 
     }else if(personalValue == ""){
         alert("Insert a number in the Personal field") 
     }else if(budgetValue == ""){
@@ -73,12 +73,12 @@ submitButton.addEventListener("click",function(e){
     }else {
 
         // Calculation when all values have been entered
-        var expenses = parseInt(rentmortgageValue) - parseInt(electricityValue) - parseInt(gasValue) - parseInt(groceriesValue) - parseInt(transportationValue) - parseInt(subscriptionsValue) - parseInt(personalValue);
         var budget = budgetValue;
-
+        var expenses = (parseInt(budgetValue) - (parseInt(rentmortgageValue) + parseInt(electricityValue) + parseInt(gasValue) + parseInt(internetphoneValue) + parseInt(groceriesValue) + parseInt(transportationValue) + parseInt(subscriptionsValue) + parseInt(entertainmentValue) + parseInt(personalValue)));
+        
         expensestotalInput.value = expenses;
 
-        compareExpenseswithBudget(expenses,budget);
+        compareBudgetwithExpenses(budget,expenses);
     }
 
 });
