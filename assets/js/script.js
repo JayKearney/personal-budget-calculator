@@ -16,7 +16,8 @@ const expensestotalInput = document.getElementById("expenses-total");
 var resultAlert = document.getElementById("result-alert");
 
 function compareBudgetwithExpenses(budget,expenses){
-
+    console.log("Budget: ", budget);
+    console.log("Expenses: ", expenses);
     if (budget > expenses) {
         resultAlert.innerHTML = "Well done";
 
@@ -84,8 +85,9 @@ submitButton.addEventListener("click",function(e){
 
         // Calculation when all values have been entered
         
-        /*
+        
         var budget = budgetValue;
+        /*
         var expenses = (parseInt(budgetValue) - (parseInt(rentmortgageValue) + parseInt(electricityValue) + parseInt(gasValue) + parseInt(internetphoneValue) + parseInt(groceriesValue) + parseInt(transportationValue) + parseInt(subscriptionsValue) + parseInt(entertainmentValue) + parseInt(personalValue)));
         */
 
@@ -100,7 +102,7 @@ submitButton.addEventListener("click",function(e){
 
 
         var budget = budgetValue;
-        compareBudgetwithExpenses(budget,expenses);
+        compareBudgetwithExpenses(budget,sum);
     }
 
 });
