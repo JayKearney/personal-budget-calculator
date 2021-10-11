@@ -31,7 +31,7 @@ function compareBudgetwithExpenses(budget,expenses){
 // Display the values
 
 submitButton.addEventListener("click",function(e){
-    
+
     // What will happen when the user clicks the button
 
     let budgetValue = budgetInput.value;
@@ -61,52 +61,52 @@ submitButton.addEventListener("click",function(e){
 
     switch (rentmortgageValue) {
     case "":
-        alert("Insert a number in the Rent/Mortgage field")
+        alert("Insert a number in the Rent/Mortgage field");
         break;
     default:
         switch (electricityValue) {
         case "":
-            alert("Insert a number in the Electricity field")
+            alert("Insert a number in the Electricity field");
             break;
         default:
             switch (gasValue) {
             case "":
-                alert("Insert a number in the Gas field")
+                alert("Insert a number in the Gas field");
                 break;
             default:
                 switch (internetphoneValue) {
                 case "":
-                    alert("Insert a number in the internet/phone field")
+                    alert("Insert a number in the internet/phone field");
                     break;
                 default:
                     switch (groceriesValue) {
                     case "":
-                        alert("Insert a number in the Groceries field")
+                        alert("Insert a number in the Groceries field");
                         break;
                     default:
                         switch (transportationValue) {
                         case "":
-                            alert("Insert a number in the Transportation field")
+                            alert("Insert a number in the Transportation field");
                             break;
                         default:
                             switch (subscriptionsValue) {
                             case "":
-                                alert("Insert a number in the subscription field")
+                                alert("Insert a number in the subscription field");
                                 break;
                             default:
                                 switch (entertainmentValue) {
                                 case "":
-                                    alert("Insert a number in the entertainment field")
+                                    alert("Insert a number in the entertainment field");
                                     break;
                                 default:
                                     switch (personalValue) {
                                     case "":
-                                        alert("Insert a number in the Personal field")
+                                        alert("Insert a number in the Personal field");
                                         break;
                                     default:
                                         switch (budgetValue) {
                                         case "":
-                                            alert("Insert a number in the Budget field")
+                                            alert("Insert a number in the Budget field");
                                             break;
                                         default:
                                             // Calculation when all values have been entered
@@ -120,14 +120,12 @@ submitButton.addEventListener("click",function(e){
                                             var expenses = [parseInt(rentmortgageValue) , parseInt(electricityValue) , parseInt(gasValue) , parseInt(internetphoneValue) , parseInt(groceriesValue) , parseInt(transportationValue) , parseInt(subscriptionsValue) , parseInt(entertainmentValue) , parseInt(personalValue)];
                                             var sum = 0;
                                             for (let i = 0; i < expenses.length; i++) {
-                                                sum += expenses[i]
+                                                sum += expenses[i];
                                             }
                                             balance = parseInt(budgetValue) - sum;
 
                                             expensestotalInput.value = balance;
 
-
-                                            var budget = budgetValue;
                                             compareBudgetwithExpenses(budget,sum);
                                             break;
                                         }
