@@ -1,5 +1,5 @@
 
-// Made references to budget calculator fields
+// References to budget calculator fields
 
 const budgetInput = document.getElementById("budget-input");
 const rentmortgageInput = document.getElementById("rent-mortgage-input");
@@ -109,19 +109,18 @@ submitButton.addEventListener("click",function(e){
                                             alert("Insert a number in the Budget field");
                                             break;
                                         default:
+
+
                                             // Calculation when all values have been entered
 
-
                                             var budget = budgetValue;
-                                            /*
-                                            var expenses = (parseInt(budgetValue) - (parseInt(rentmortgageValue) + parseInt(electricityValue) + parseInt(gasValue) + parseInt(internetphoneValue) + parseInt(groceriesValue) + parseInt(transportationValue) + parseInt(subscriptionsValue) + parseInt(entertainmentValue) + parseInt(personalValue)));
-                                            */
 
                                             var expenses = [parseInt(rentmortgageValue) , parseInt(electricityValue) , parseInt(gasValue) , parseInt(internetphoneValue) , parseInt(groceriesValue) , parseInt(transportationValue) , parseInt(subscriptionsValue) , parseInt(entertainmentValue) , parseInt(personalValue)];
                                             var sum = 0;
                                             for (let i = 0; i < expenses.length; i++) {
                                                 sum += expenses[i];
                                             }
+                                            
                                             balance = parseInt(budgetValue) - sum;
 
                                             expensestotalInput.value = balance;
