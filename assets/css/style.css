@@ -74,7 +74,6 @@ h3 {
     border: 2px solid #009E60;
 }
 
-
 /* --------- Background image*/
 
 body {
@@ -91,3 +90,64 @@ h2 {
 }
 
 /* --------- Media Queries*/
+
+/* Style small screen sizes from 425px wide and down */
+
+    @media screen and (max-width: 425px) {
+
+        .budget-field {
+
+            margin: 2px;
+        }
+
+        .budget-field input {
+
+            font-size: 14px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        .budget-result {
+
+            margin: 5px;
+        }
+
+        .calculator-field {
+
+            margin: 5px;
+            
+        }
+
+        .calculator-field input {
+            font-size: 14px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        .budget-result input {
+            font-size: 8px;
+            border-radius: 8px;
+            padding: 8px;
+            margin: 5px;
+        }
+
+        #submit-button {
+
+            font-size: 13px;
+            margin: 5px;
+        }
+
+        h1 {
+        
+            font-size: 25px;
+            
+        }
+
+        h3 {
+            font-size: 15px;
+            
+        }
+
+}
+
+    
