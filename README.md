@@ -17,21 +17,21 @@ Life in Ireland Budget Calculator it is meant to be a tool for the everyday life
   - If no value is entered while pressing the "submit" button, the alert below appears:
   
 
-![Budget](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png) (budget alert)
+![Budget](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/budget-field-akert.png)
 
 - __Expenses fields__
 
   - Different expenses names are displayed inside the boxes.
   - If no value is entered in any of them while pressing the "submit" button, alear pop-up messages with the specific field name with appear. Example here:
 
-![Expenses](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png) (alert electicity field)
+![Expenses](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/electricity%20field%20alert.png)
 
 - __Calculate your Balance field__
 
   - The result of the calculation appears in this box after pressing the submit button.
   - The user will be able to see the amount left after paying all expenses including entertainment, therefore allowing them to decide how much money to spend in non essential items and save money if they desire. 
 
-![Balance](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png) (submit)
+![Balance](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/balance-field.png)
 
 - __Balance messages__
 
@@ -48,11 +48,11 @@ Life in Ireland Budget Calculator it is meant to be a tool for the everyday life
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). The warning message refers to an empty h2, however that was necessary to allow for the result messages to appear there with that size and location. Therefore, no error.
+  - No errors were returned when passing through the official [W3C validator](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/html%20validator.png). The warning message refers to an empty h2, however that was necessary to allow for the result messages to appear there with that size and location. Therefore, no error.
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/css-validator.png)
 - Javascript
-  - No errors were found when passing through the official [(jshint) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.
+  - No errors were found when passing through the official [(jshint) validator] (https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/jshint.png)
 
 
 ### Fixed Bugs

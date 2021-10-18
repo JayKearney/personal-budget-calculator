@@ -18,11 +18,11 @@ function compareBudgetwithExpenses(budget, expenses) {
     console.log('Budget: ', budget);
     console.log('Expenses: ', expenses);
     if (budget > expenses) {
-        resultAlert.innerHTML = 'Well done';
+        resultAlert.innerHTML = 'Great job! Money does not buy happiness, but you will be able to buy yourself a lot of nice things with what you have left this month!';
     } else if (budget == expenses) {
-        resultAlert.innerHTML = 'Careful';
+        resultAlert.innerHTML = 'Be careful! Better cut down on the Guinness to have some savings at the end of the month!';
     } else {
-        resultAlert.innerHTML = 'Bad';
+        resultAlert.innerHTML = 'It looks like the only exercise you will be doing this month is Running out of Money!';
     }
 }
 
