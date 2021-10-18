@@ -56,7 +56,7 @@ Life in Ireland Budget Calculator it is meant to be a tool for the everyday life
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/css-validator.png)
 - Javascript
-  - No errors were found when passing through the official [(jshint) validator] (https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/jshint.png)
+  - No errors were found when passing through the official [(jshint) validator](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/jshint.png)
 
 
 ### Fixed Bugs
