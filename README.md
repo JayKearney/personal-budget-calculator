@@ -3,7 +3,7 @@
 Life in Ireland Budget Calculator is meant to be a tool for the everyday life in Ireland. On top of being a budget calculator, it uses humour. Therefore, it targets a younger croud, mainly of college students or young people that recently moved to Ireland. Ireland is known for it's high rent prices and variet of entertainment, therefore without noticing, you can run out of money. The tool is meant to be used in every stage of the month. 
 It's meant to become viral due to it's usefulness and humour.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/responsive%20design.png)
 
 ## Features 
 
