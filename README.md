@@ -48,83 +48,44 @@ Life in Ireland Budget Calculator it is meant to be a tool for the everyday life
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). The warning message refers to an empty h2, however that was necessary to allow for the result messages to appear there with that size and location. Therefore, no error.
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- Javascript
+  - No errors were found when passing through the official [(jshint) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.
 
-### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+### Fixed Bugs
+
+- Javascript:
+  - Calculation returning an "Error is Naan" despite of ParseInt function. .value was missing from the electricity field.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://jaykearney.github.io/personal-budget-calculator/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
+- Javascript
+  - Instructions on how to implement getelementbyid, value if statement and looping an array were taken from Code Institute course.
+  - Understanding function e (event) was taken from: [Stackoverflow] https://stackoverflow.com/questions/10323392/in-javascript-jquery-what-does-e-mean
+  - Instructions on how to implement event listener click were taken from: [W3schools] https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+  - The colour pallete of the entire website was inspired by the Irish Flag colours
+  
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- The background image used was taken from [flickr] https://www.flickr.com/
 
 ## Other General Project Advice
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+I wanted to make a simple one page application, that was useful and that would allow me to focus on learning Javascript.
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
-
-Inspiration https://toggl.com/plan/budget-calculator/index
-
-https://www.numbeo.com/cost-of-living/country_result.jsp?country=Ireland
-
-div input https://medium.com/weekly-webtips/a-simple-expense-calculator-built-with-javascript-bcd824536a4c
-
-border of fields is emerald green because it's an irish calculator. It will have irish colours
-
-getelementbyid from code institute course
-
-https://www.w3schools.com/js/js_htmldom_eventlistener.asp - event listener click
-
-understanding function e (event) JS https://stackoverflow.com/questions/10323392/in-javascript-jquery-what-does-e-mean
-
-get value js https://stackoverflow.com/questions/11563638/how-do-i-get-the-value-of-text-input-field-using-javascript
-
-value if statements code institute
-
-https://levelup.gitconnected.com/create-a-simple-expense-manager-with-javascript-4e2cf2097fba
-
-parsint sum https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-16.php
-
-error is naan
+I spent most of my time refactoring my JS code. After fixing a BUG I had, the calculator was working, however it wasn't clean code. Therefore I learned a lot of how to convert it to a more user friendly and professional one.

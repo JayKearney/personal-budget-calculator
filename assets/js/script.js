@@ -98,7 +98,7 @@ submitButton.addEventListener('click', function (e) {
         sum += expenses[i];
     }
 
-    balance = parseInt(budgetValue) - sum;
+    let balance = parseInt(budgetValue) - sum;
     expensestotalInput.value = balance;
 
     compareBudgetwithExpenses(budget, sum);
