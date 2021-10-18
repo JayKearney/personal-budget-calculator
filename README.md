@@ -35,9 +35,13 @@ Life in Ireland Budget Calculator it is meant to be a tool for the everyday life
 
 - __Balance messages__
 
-  - After selecting the submit button, a message will appear to either warn, congratulate or prevent the user on their balance left. 
+  - After selecting the submit button, a message will appear to either warn, congratulate or prevent the user on their balance left:
+  
+![Expenses higher than Budget](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/result-message.png)
 
-![Balance Message](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png) (balance message)
+![Expenses lower than Budget](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/result-message.png)
+
+![Expenses same amount as Budget](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/result-message.png)
 
 ### Features Left to Implement
 
