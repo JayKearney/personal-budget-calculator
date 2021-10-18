@@ -78,7 +78,7 @@ h3 {
 
 body {
 
-  background-image: url("../images/background/dublindoors.jpg");  
+  background-image: url(assets/images/background/dublindoors.jpg);  
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 38%;
