@@ -63,6 +63,7 @@ Life in Ireland Budget Calculator it is meant to be a tool for the everyday life
 
 - Javascript:
   - Calculation returning an "Error is Naan" despite of ParseInt function. .value was missing from the electricity field.
+  - Background image not appearing when site was deployed. Fixed it by entering a relative path instead of absolute.
 
 ## Deployment
 
