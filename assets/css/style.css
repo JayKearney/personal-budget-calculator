@@ -77,6 +77,8 @@ h3 {
 /* --------- Background image*/
 
 body {
+
+  background-image: url(/assets/images/dublindoors.jpg);  
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 38%;
@@ -150,4 +152,25 @@ h2 {
 
 }
 
-    
+/* Style small screen sizes from 300px wide and down */
+
+@media screen and (max-width: 300px) {
+
+   
+    .budget-field input {
+
+        font-size: 10px;
+    }
+
+    .calculator-field input {
+        font-size: 10px;
+    }
+
+    .budget-result input {
+        font-size: 8px;
+        border-radius: 8px;
+        padding: 8px;
+        margin: 5px;
+    }
+
+}

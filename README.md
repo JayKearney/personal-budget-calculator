@@ -1,82 +1,49 @@
 # Life in Ireland Budget Calculator
 
-Life in Ireland Budget Calculator is meant to be a tool for the everyday life in Ireland. On top of being a budget calculator, it uses humour. Therefore, it targets a younger croud, mainly of college students or young people that recently moved to Ireland. Ireland is known for it's high rent prices and variet of entertainment, therefore without noticing, you can run out of money. The tool is meant to be used in every stage of the month. 
-It's meant to become viral due to it's usefulness and humour.
+Life in Ireland Budget Calculator it is meant to be a tool for the everyday life in Ireland. It is a simple but yet powerful web application to keep track of your budget. This App allows the user to know how much money is being spent or saved. One can plan the budget wisely and save effectively. It also uses humour when providing the calculation result. Therefore, it targets a younger croud, mainly of college students or young people that recently moved to Ireland. Ireland is known for it's high rent prices and variety of entertainment, therefore  this single page web app will help you calculate and visualise your budget to stay ahead of the game.
 
 ![Responsice Mockup](https://github.com/JayKearney/personal-budget-calculator/blob/main/assets/images/responsive%20design.png)
 
-## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
-- __Navigation Bar__
+- Single one page application featuring the colour of the irish flag
+- Responsive on all device sizes
+- Interactive elements
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+- __Budget Field__
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+  - Description inside field on what value to enter
+  - Availability to move the arrow up and down to change numbers inside
+  - If no value is entered while pressing the "submit" button, the alert below appears:
+  
 
-- __The landing page image__
+![Budget](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png) (budget alert)
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+- __Expenses fields__
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  - Different expenses names are displayed inside the boxes.
+  - If no value is entered in any of them while pressing the "submit" button, alear pop-up messages with the specific field name with appear. Example here:
 
-- __Club Ethos Section__
+![Expenses](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png) (alert electicity field)
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+- __Calculate your Balance field__
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  - The result of the calculation appears in this box after pressing the submit button.
+  - The user will be able to see the amount left after paying all expenses including entertainment, therefore allowing them to decide how much money to spend in non essential items and save money if they desire. 
 
-- __Meetup Times section__
+![Balance](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png) (submit)
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+- __Balance messages__
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  - After selecting the submit button, a message will appear to either warn, congratulate or prevent the user on their balance left. 
 
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Balance Message](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png) (balance message)
 
 ### Features Left to Implement
 
-- Another feature idea
+- Second page that will estimate your taxes owed.
 
 ## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 
 ### Validator Testing 
 
